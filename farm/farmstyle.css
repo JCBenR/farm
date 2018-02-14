@@ -1,0 +1,176 @@
+ *{
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family:  'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.v-header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color:#fff;
+}
+
+.container {
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.fullscreen-video-wrap{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.fullscreen-video-wrap video{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay{
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background:#606064;
+  z-index: 1;
+  opacity: .50;
+}
+
+.header-content{
+  z-index: 2;
+}
+
+.header-content h1{
+  font-size: 9rem;
+  margin-bottom: 0;
+}
+
+.header-content p{
+  font-size: 3.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.btn{
+  background: #f2cc2e;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.navbar {
+  z-index: 3;
+  margin: 5px 0;
+}
+
+.navbar-default{
+  background: #fff;
+  border: 0;
+}
+
+.navbar-brand img{
+  padding-left: 3rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav-item{
+  margin-top: 15px;
+}
+
+.nav-link{
+  font-size: 2rem;
+  padding: 3rem;
+  list-style-type: none;
+}
+
+.navbar-collapse ul{
+  list-style-type: none;
+}
+
+.container2{
+  margin: 0 40px;
+}
+
+#showcase {
+  border-bottom: #333 7px solid;
+}
+
+#showcase h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#showcase img{
+  width:50%;
+  margin-left: 20rem;
+  }
+
+#showcase .showcase-right{
+  margin-top:90px;
+}
+
+#testimonial{
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#testimonial p{
+  font-size: 32px;
+}
+
+#testimonial p.customer{
+  font-size: 20px;
+  color: #666;
+}
+
+#info1 .info-right{
+  margin-top: 150px;
+}
+
+#info1 img{
+  width: 90%;
+
+}
+
+.container2 p{
+  font-size: 18px;
+}
+
+#info2{
+  margin: 20px 0 60px;
+}
+
+
+#contact{
+  background:url(sunfield.jpeg);
+  padding: 40px;
+  color: #fff;
+  border-top: #333 7px solid;
+  border-bottom: #333 7px solid;
+  text-align: center;
+}
+
+footer{
+  padding:30px;
+  font-size: 20px;
+}
